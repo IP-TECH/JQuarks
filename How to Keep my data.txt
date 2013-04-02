@@ -1,0 +1,26 @@
+	How to keep my data from version 0.2.2 ~ 0.2.4
+
+
+If you are moving from version 0.2.2 ~ 0.2.4 to version 0.3.x you may want to keep all your created questions, quizzes, user session, etc.
+
+	1 - Although this procedure should be safe, we STRONGLY recommend to backup your database before proceeding
+
+	2 - Before uninstalling JQuarks component, locate the file uninstall.sql under
+	
+		{SITE_ROOT}/administrator/components/com_jquarks/uninstall.sql
+
+	3 - Open it with any text editor and just discard its content and save the file
+
+	3 - Uninstall JQuarks's component
+
+	4 - Install JQuarks's 0.3.x component
+
+	5 - Enjoy our new feature and give us feedback to improve JQuarks :) !
+
+Notes :
+
+* As for this version JQuarks' plugins and module have been updated, so please uninstall the older version and install the one provided with 0.3.x
+
+Feel free to ask any additional support through our forum 
+
+http://www.iptechinside.com/labs/projects/jquarks/boards (registration is free and required)
