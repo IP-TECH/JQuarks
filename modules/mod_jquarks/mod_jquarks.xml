@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+    <name>JQuarks</name> 
+    <author>IP-Tech Labs</author>
+    <creationDate>December 2009</creationDate> 
+    <copyright>All rights reserved</copyright> 
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license> 
+    <authorEmail>labs@iptech-offshore.com</authorEmail>
+    <authorUrl>www.iptech-offshore.com</authorUrl> 
+    <version>0.3.1</version> 
+    <description>This module shows the list of the available JQuarks component quizzes</description>
+    <files>
+        <filename module="mod_jquarks">mod_jquarks.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+ 
+    <languages>
+        <language tag="en-GB">en-GB.mod_jquarks.ini</language>
+        <language tag="fr-FR">fr-FR.mod_jquarks.ini</language>
+        <language tag="nb-NO">nb-NO.mod_jquarks.ini</language>
+        <language tag="de-DE">de-DE.mod_jquarks.ini</language>
+        <language tag="es-ES">es-ES.mod_jquarks.ini</language>
+        <language tag="gl-ES">gl-ES.mod_jquarks.ini</language>
+        <language tag="it-IT">it-IT.mod_jquarks.ini</language>
+    </languages>
+
+    <params>
+        <param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+        <param name="@spacer" type="spacer" default="" label="" description="" />
+        <param name="numberQuiz" type="text" default="2" label="NUMBER_OF_QUIZZES" description="NUMBER_OF_QUIZZES_TO_DISPLAY" />
+        <param name="orderQuiz" type="list" default="title" label="ORDER_BY" description="DISPLAY_QUIZZES_ORDERED_BY">
+			<option value="title">TITLE</option>
+			<option value="date">CREATION_DATE</option>
+			<option value="dateReverse">REVERSE_CREATION_DATE</option>
+		</param> 
+    </params>
+</install>
