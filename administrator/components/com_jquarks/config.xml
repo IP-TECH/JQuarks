@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<!DOCTYPE config [
+	<!ELEMENT config (params)>
+	<!ELEMENT params (param+)>
+	<!ELEMENT param (option*)>
+	<!ATTLIST param name CDATA #REQUIRED>
+	<!ATTLIST param type CDATA #REQUIRED>
+	<!ATTLIST param default CDATA #REQUIRED>
+	<!ATTLIST param label CDATA #REQUIRED>
+	<!ATTLIST param description CDATA #REQUIRED>
+]>
+<config>
+	<params>
+ 		<param name="usePagination" type="radio" default="1" label="USE_PAGINATION" description="MAKE_QUIZ_PAGINATED">
+		  <option value="1">Yes</option> 
+		  <option value="0">No</option> 
+		</param>
+	 	<param name="useSlide" type="radio" default="1" label="USE_SLIDE" description="USE_SLIDE_EFFECT">
+	 	  <option value="1">Yes</option> 
+		  <option value="0">No</option>
+	 	</param> 			
+	 	<param name="questionPage" type="text" default="2" label="QUESTION_PAGE" description="NUMBER_QUESTION_PAGE"/>
+ 	</params>
+ </config>

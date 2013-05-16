@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE install SYSTEM "http://www.joomla.org/xml/dtd/1.5/component-install.dtd">
+<install type="component" version="1.5.15">
+ <name>JQuarks</name>
+ <creationDate>December 2010</creationDate>
+ <author>IP-Tech Labs</author>
+ <authorEmail>labs@iptech-offshore.com</authorEmail>
+ <authorUrl></authorUrl>
+ <copyright>Copyright (C) 2009-2010 IP-Tech. All right reserved.</copyright>
+ <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+ <version>0.3.1</version>
+ <description>JQuarks allow joomla administrators to create their own quizzes</description>
+  
+ <installfile>install.jquarks.php</installfile>
+ <uninstallfile>uninstall.jquarks.php</uninstallfile>
+ 
+ <install>
+   <sql>
+   	  <file charset="utf8" driver="mysql">install.sql</file>
+   </sql>
+ </install>
+ 
+  <uninstall>
+   <sql>
+   	  <file charset="utf8" driver="mysql">uninstall.sql</file>
+   </sql> 
+ </uninstall>
+ 
+ <files folder="frontend">
+  <filename>index.html</filename>
+  <filename>jquarks.php</filename>
+  <filename>controller.php</filename>
+  <filename>router.php</filename>
+  
+  <folder>assets</folder>
+  <folder>controllers</folder>
+  <folder>models</folder>
+  <folder>views</folder>
+ </files>
+ 
+ <languages folder="language">
+ 	<language tag="de-DE">de-DE.com_jquarks.ini</language>
+ 	<language tag="en-GB">en-GB.com_jquarks.ini</language>
+ 	<language tag="fr-FR">fr-FR.com_jquarks.ini</language>
+ 	<language tag="nb-NO">nb-NO.com_jquarks.ini</language>
+	<language tag="es-ES">es-ES.com_jquarks.ini</language>
+	<language tag="gl-ES">gl-ES.com_jquarks.ini</language>
+	<language tag="it-IT">it-IT.com_jquarks.ini</language>
+ </languages>
+ 
+ <administration>
+ 	<menu img="components/com_jquarks/assets/images/jquarks.ico">JQuarks</menu>
+ 	
+    <files folder="backend">
+ 	 <filename>index.html</filename>
+ 	 <filename>admin.jquarks.php</filename>
+ 	 <filename>config.xml</filename>
+     <filename>controller.php</filename>
+ 	 <filename>install.sql</filename>
+ 	 <filename>uninstall.sql</filename>
+ 	 
+ 	       
+       <folder>assets</folder>
+       <folder>controllers</folder>
+       <folder>elements</folder>
+       <folder>help</folder>
+       <folder>joomfish_contentelements</folder>
+       <folder>models</folder>
+       <folder>tables</folder>
+       <folder>views</folder>
+
+    </files>
+ 	
+	 <languages folder="language">
+        <language tag="de-DE">de-DE.com_jquarks.ini</language>
+        <language tag="de-DE">de-DE.com_jquarks.menu.ini</language>
+       	<language tag="de-DE">de-DE.com_jquarks.ini</language>
+	 	<language tag="de-DE">de-DE.com_jquarks.menu.ini</language>
+	 	<language tag="en-GB">en-GB.com_jquarks.ini</language>
+	 	<language tag="en-GB">en-GB.com_jquarks.menu.ini</language>
+	 	<language tag="fr-FR">fr-FR.com_jquarks.ini</language>  	
+	 	<language tag="fr-FR">fr-FR.com_jquarks.menu.ini</language>
+	 	<language tag="nb-NO">nb-NO.com_jquarks.ini</language>
+	 	<language tag="nb-NO">nb-NO.com_jquarks.menu.ini</language>	 	
+	 	<language tag="es-ES">es-ES.com_jquarks.ini</language>
+	 	<language tag="es-ES">es-ES.com_jquarks.menu.ini</language>
+        <language tag="gl-ES">gl-ES.com_jquarks.ini</language>
+	 	<language tag="gl-ES">gl-ES.com_jquarks.menu.ini</language>
+        <language tag="it-IT">it-IT.com_jquarks.ini</language>
+	 	<language tag="it-IT">it-IT.com_jquarks.menu.ini</language>
+
+         </languages>
+
+ </administration>
+ 
+<params>
+	<param name="paginate" default="1"></param>
+	<param name="questionPage" default="5"></param>
+	<param name="slide" default="1"></param>
+</params>
+ 
+</install>

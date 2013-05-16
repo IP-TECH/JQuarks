@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>JQuarks Quizzes</name>
+  <author>Mohamed TOUGORTI</author>
+  <version>0.0.1</version>
+  <description>Definition for JQuarks quizzes</description>
+  <copyright>2009 - 2010, IP-Tech</copyright>
+  <reference>
+  	<table name="jquarks_quizzes">
+  		<field type="referenceid" name="id" translate="0">ID</field>
+  		<field type="titletext" name="title" translate="1">title</field>
+  		<field type="text" name="description" translate="1">description</field>
+  		<field type="int" name="published" translate="0">published</field>  		
+		<field type="int" name="access_id" translate="0">access_id</field>
+		<field type="int" name="time_limit" translate="0">time_limit</field>
+		<field type="int" name="unique_session" translate="0">unique_session</field>
+		<field type="params" name="paginate" translate="0">paginate</field>
+		<field type="publish_up_date" name="publish_up" translate="0">publish_up</field>
+		<field type="publish_down_date" name="publish_down" translate="0">publish_down</field>
+		<field type="htmltext" name="notify_message" translate="1">notify_message</field>
+  	</table>
+  </reference>
+  <translationfilters>
+  </translationfilters>
+</joomfish>

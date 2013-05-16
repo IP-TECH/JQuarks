@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form [
+	<!ELEMENT form (name, params)>
+	<!ELEMENT params (param+)>
+	<!ELEMENT param (option*)>
+	<!ATTLIST param name CDATA #REQUIRED>
+	<!ATTLIST param type CDATA #REQUIRED>
+	<!ATTLIST param default CDATA #REQUIRED>
+	<!ATTLIST param label CDATA #REQUIRED>
+	<!ATTLIST param size CDATA #IMPLIED>
+	<!ATTLIST param description CDATA #REQUIRED>
+]>
+<form>
+  <name>Quiz Edit Form</name> 
+  <params>
+	<param name="paginate" type="radio" default="1" label="USE_PAGINATION" description="MAKE_QUIZ_PAGINATED">
+		 <option value="1">YES</option> 
+		 <option value="0">NO</option> 
+		 <option value="2">USE_GLOBAL</option>
+	</param>
+	<param name="slide" type="radio" default="0" label="USE_SLIDE" description="USE_SLIDE_EFFECT">
+	 	  <option value="1">YES</option> 
+		  <option value="0">NO</option>
+	 </param> 		
+	<param name="questionPage" type="text" default="5" label="QUESTION_PAGE" size="4" description="NUMBER_QUESTION_PAGE" />
+	<param name="publish_up" type="calendar" default="" label="START_PUBLISHING" description="DATE_PUBLICATION_START" /> 
+  	<param name="publish_down" type="calendar" default="" label="FINISH_PUBLISHING" description="DATE_PUBLICATION_END" /> 
+  </params>
+</form>

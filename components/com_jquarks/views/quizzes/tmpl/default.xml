@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="JQUARKS_QUIZZES">
+        <message>
+            <![CDATA[JQUARKS_QUIZZES_DESC]]>
+        </message>
+    </layout>
+    <state>
+        <name>JQUARKS_QUIZZES</name>
+        <description>JQUARKS_QUIZZES_DESC</description>
+    </state>
+</metadata>

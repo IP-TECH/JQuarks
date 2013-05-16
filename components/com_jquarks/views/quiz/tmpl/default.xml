@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="JQUARKS_QUIZ_MENU">
+        <message>
+            <![CDATA[JQUARKS_QUIZ_MENU_DESC]]>
+        </message>
+    </layout>
+    <state>
+        <name>JQUARKS_QUIZ_MENU</name>
+        <description>JQUARKS_QUIZ_MENU_DESC</description>
+        <url addpath="/administrator/components/com_jquarks/elements">
+            <param name="id" type="quiz" default="0" label="JQUARKS_SELECT_QUIZ" description="JQUARKS_SELECT_QUIZ_DESC" />
+        </url>
+    </state>
+</metadata>

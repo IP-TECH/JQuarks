@@ -1,0 +1,27 @@
+.green-li {
+    color: #00cc33;
+}
+
+.li-highlight-green {
+    color: #00cc33;
+}
+
+.li-highlight-orange {
+    color: #ff9900;
+}
+
+.li-highlight-red {
+    color: #ff0000;
+}
+
+.result-list {
+    list-style: none;
+}
+
+.session-title {
+    font-weight: bold; 
+}
+
+.note-small {
+    font-size: small;
+}

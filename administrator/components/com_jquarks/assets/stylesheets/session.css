@@ -1,0 +1,23 @@
+
+
+li.checked_option {
+    font-weight: bold;
+    display: list-item;
+    list-style-image: url(../images/option_checked.png);
+}
+
+li.unchecked_option {
+    display: list-item;
+    list-style-image: url(../images/option_unchecked.png);
+}
+
+li.checked_checkbox {
+    font-weight: bold;
+    display: list-item;
+    list-style-image: url(../images/cb_checked.png);
+}
+
+li.unchecked_checkbox {
+    display: list-item;
+    list-style-image: url(../images/cb_unchecked.png);
+}

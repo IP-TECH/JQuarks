@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>JQuarks Propositions</name>
+  <author>Mohamed TOUGORTI</author>
+  <version>0.0.1</version>
+  <description>Definition for JQuarks propositions</description>
+  <copyright>2009 - 2010, IP-Tech</copyright>
+  <reference>
+  	<table name="jquarks_propositions">
+  		<field type="referenceid" name="id" translate="0">ID</field>
+  		<field type="titletext" name="answer" translate="1">answer</field>
+  		<field type="int" name="correct" translate="0">correct</field>
+  		<field type="int" name="question_id" translate="0">question_id</field>  		
+		<field type="int" name="archived" translate="0">archived</field>
+  	</table>
+  </reference>
+  <translationfilters>
+  </translationfilters>
+</joomfish>

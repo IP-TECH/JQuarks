@@ -1,0 +1,10 @@
+body { background-color: #FFFEFE; }
+h1 { color: #123456; font-family: Arial,serif; text-align:center; }
+h2 { color: #456789; font-family: Arial,serif; }
+h3 { color: #89ABCD; font-family: Arial,serif; text-indent: 10px; }
+p { text-indent: 20px; text-align: justify; font-family:"time new roman", serif;}
+ul li { list-style: none; }
+ol {margin-left: 20px;}
+a {text-decoration: none}
+a:visited {color: #123456;}
+a:hover {text-decoration: underline;}
