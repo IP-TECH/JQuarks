@@ -3,7 +3,7 @@ JQuarks
 
 JQuarks is a free and open source component enabling Quiz and Surveys for Joomla! free CMS.
 
-JQuarks's Features :
+### JQuarks's Features :
 - Create and categories your questions
 - Define custom and random sets of questions
 - Compile and publish sets into "quizzes"
@@ -13,3 +13,7 @@ JQuarks's Features :
 - Public and private quizzes
 - Assign Joomla! users to quizzes and notify them by e-mail
 - Export sessions (results, time, etc.) to csv format
+
+
+### How to contribute translations:
+There are two ways you can contribute a translation: with a pull request or at [Transifex](https://www.transifex.com/projects/p/jquarks/).
