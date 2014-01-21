@@ -14,7 +14,7 @@ class plgUserJquarks extends JPlugin
      * @param object $subject The object to observe
      * @param array $config An array that holds the plugin configuration
      */
-    function __construct($subject, $config)
+    public function __construct($subject, $config)
     {
         parent::__construct($subject, $config);
     }
@@ -28,7 +28,7 @@ class plgUserJquarks extends JPlugin
      * @param	boolean		true if user was succesfully stored in the database
      * @param	string		message
      */
-    function onUserAfterDelete($user, $success, $msg)
+    public function onUserAfterDelete($user, $success, $msg)
     {
         if ($success)
         {
@@ -89,7 +89,7 @@ class plgUserJquarks extends JPlugin
      * @param	boolean		true if user was succesfully stored in the database
      * @param	string		message
      */
-    function onUserAfterSave($user, $isnew, $success, $msg)
+    public function onUserAfterSave($user, $isnew, $success, $msg)
     {
         if ($isnew && $success)
         {
@@ -130,7 +130,7 @@ class plgUserJquarks extends JPlugin
      * @param  array $options
      * @return boolean
      */
-    function onUserLogin($user, $options)
+    public function onUserLogin($user, $options)
     {
         $mainframe = & JFactory::getApplication();
 
@@ -152,7 +152,7 @@ class plgUserJquarks extends JPlugin
      * @param array $user
      * @return boolean
      */
-    function onUserLogout($user)
+    public function onUserLogout($user)
     {
         $mainframe = & JFactory::getApplication();
 
