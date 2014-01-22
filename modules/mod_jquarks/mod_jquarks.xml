@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<install type="module" version="1.5.0">
+<install type="module" version="2.5">
     <name>JQuarks</name> 
     <author>IP-Tech Labs</author>
     <creationDate>December 2009</creationDate> 
@@ -32,9 +32,9 @@
         <param name="@spacer" type="spacer" default="" label="" description="" />
         <param name="numberQuiz" type="text" default="2" label="NUMBER_OF_QUIZZES" description="NUMBER_OF_QUIZZES_TO_DISPLAY" />
         <param name="orderQuiz" type="list" default="title" label="ORDER_BY" description="DISPLAY_QUIZZES_ORDERED_BY">
-			<option value="title">TITLE</option>
-			<option value="date">CREATION_DATE</option>
-			<option value="dateReverse">REVERSE_CREATION_DATE</option>
-		</param> 
+            <option value="title">TITLE</option>
+            <option value="date">CREATION_DATE</option>
+            <option value="dateReverse">REVERSE_CREATION_DATE</option>
+        </param> 
     </params>
 </install>

@@ -1,9 +1,11 @@
 <?php defined( '_JEXEC' ) or die( 'Restricted access' ); ?>
-<style>
-	.jquarks_mod ul {list-style: none;}
-	.jquarks_mod img {vertical-align: bottom; }
-	.view_all_quizzes {margin-left: auto; width: 90%; display: block; text-align: right; } 
+
+<style type="text/css">
+.jquarks_mod ul {list-style: none;}
+.jquarks_mod img {vertical-align: bottom; }
+.view_all_quizzes {margin-left: auto; width: 90%; display: block; text-align: right; } 
 </style>
+
 <div class="jquarks_mod">
 	<?php 
 		if ($publicQuizzes || $userQuizzes) :
