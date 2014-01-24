@@ -1,10 +1,10 @@
 JQuarks
 =======
 
-JQuarks is a free and open source component enabling Quiz for Joomla! free CMS.
+JQuarks is a free and open source component for enabling Quiz on Joomla! free CMS websites.
 
 ### JQuarks's Features :
-- Create and categories your questions
+- Create and categorize your questions
 - Define custom and random sets of questions
 - Compile and publish sets into "quizzes"
 - All types of questions are supported (unique, multiple or free answers)
